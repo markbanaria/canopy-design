@@ -1,12 +1,19 @@
-Canopy UI Review
+# Canopy UI Review
 
-Global
-Body Font Size: `font-size: 14px`
-Button height: `44px`
-Tag: `border-radius: 50%; height 32px;`
-Input text: `height: 40px`
-close icon for modal ./assets/close.svg
+**Global**
+
+  1. Body Font Size: `font-size: 14px`
+  2. Button height: `44px`
+  3. Tag:   `border-radius: 22px; padding: 3px 8px; height: 32px;`
+     *  <img width="988" alt="Screen Shot 2021-05-13 at 3 56 31 PM" src="https://user-images.githubusercontent.com/6618158/118096653-3959fe00-b404-11eb-9d93-599648a29168.png">
+     *  [I'm an inline-style link](https://www.google.com)
+     *  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+  5. Input text: `height: 40px`
+  6. Close icon for modal ./assets/close.svg
+
+
 implement file component (mark to create css component)
+
 table stripe 
 >color configuration
 >row heights
