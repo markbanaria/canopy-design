@@ -1,11 +1,25 @@
-# Canopy UI Review
+# Canopy UI to Update
 
 **Global**
 
   ---
-  1. Body Font Size should be:
+  1. Default font size should be:
   
-       `14px`
+       `font-size: 14px`
+       
+     Default font weight should be:
+  
+       `font-weight: 300`
+       
+     BEFORE:
+     
+     <img width="313" alt="Screen Shot 2021-05-19 at 10 12 09 PM" src="https://user-images.githubusercontent.com/6618158/118827802-4e94c800-b8ef-11eb-9a4d-e1ac3efd9dc5.png">
+
+     AFTER:
+     
+     <img width="310" alt="Screen Shot 2021-05-19 at 10 12 00 PM" src="https://user-images.githubusercontent.com/6618158/118827894-5fddd480-b8ef-11eb-95b8-d896a4476405.png">
+
+
        
  ---     
   2. Button height should be:
@@ -148,35 +162,79 @@
      AFTER:
      
      <img width="1037" alt="Screen Shot 2021-05-19 at 10 06 36 PM" src="https://user-images.githubusercontent.com/6618158/118826934-7d5e6e80-b8ee-11eb-97f8-16ed708a8904.png">
+---
 
 
 **Assets**
+---
+1. Asset Card
 
-Asset Card
-> padding
-> font sizing
-> file container sizing: 44px
-> user icon sizing
-> share icon asset
-> add asset type
+   * padding should be: `16px`
+   * font sizing
+     *    asset type: `10px`
+     *    title: `21px`
+     *    Acknowkledge Receipt: `14px`
+   * use file-widget same as across site
+   * user icon sizing: 'height: 20px; width: 20px;`
+   * share icon asset: https://github.com/markbanaria/canopy-design/blob/master/assets/share-alt.svg
+   * add asset type: https://www.figma.com/file/HAOBtN9pMKzYlAlZYNGjp5/Canopy-Legal-Master?node-id=3145%3A14542
+---
+**Asset Detail**
+---
+  1. Change asset Type design pattern: https://www.figma.com/file/HAOBtN9pMKzYlAlZYNGjp5/Canopy-Legal-Master?node-id=2228%3A14240
+  ---
+  2. Buttons should be outside the card: https://www.figma.com/file/HAOBtN9pMKzYlAlZYNGjp5/Canopy-Legal-Master?node-id=2228%3A14240
+  ----
+  3. Card border and padding settings:
+      * `border: 1px solid #dcdcdc;`
+      * `padding: 24px 32px;`
+  ---
+  5. file container: use same widget as in asset list
+  ---
+  6. Title font size: `40px`
+  ---
+**Edit Asset**
+---
+  1. use file-widget same as across site
 
-Asset Detail
-Change asset Type design pattern
-buttons should be outside the card
-card border and padding settings
-file container
-Tile font settings, also outside
+     BEFORE:
+     
+     <img width="983" alt="Screen Shot 2021-05-19 at 10 27 48 PM" src="https://user-images.githubusercontent.com/6618158/118830537-9b799e00-b8f1-11eb-847e-13d1a5338bf5.png">
 
-Edit Asset
-Use the same file component
-Spacing between input groups
+     
+     AFTER:
+     
+     <img width="844" alt="Screen Shot 2021-05-19 at 10 28 12 PM" src="https://user-images.githubusercontent.com/6618158/118830481-8f8ddc00-b8f1-11eb-9451-97ac9148c53d.png">
+  ---
+     
+  2. Spacing between input should be `30px`
 
-Distribute Asset
-Select person to distribute with: > font color #727272
-DATE ACKNOWLEDGE > DATE ACKNOWLEDGED
-Status icon sizing and asset
-table-striped
-Table heading > the sort icon is either going down or separated
-The name column is disproportionately bigger than the rest (is it pushing the sort icons down?)
+
+     BEFORE:
+     
+     <img width="998" alt="Screen Shot 2021-05-19 at 10 30 22 PM" src="https://user-images.githubusercontent.com/6618158/118830912-eb586500-b8f1-11eb-9eb0-296b5d74b5e5.png">
+
+     AFTER:
+     
+     <img width="743" alt="Screen Shot 2021-05-19 at 10 30 28 PM" src="https://user-images.githubusercontent.com/6618158/118830965-f3b0a000-b8f1-11eb-933f-c54b3a68a0ed.png">
+
+
+  ---
+     
+  3. Author widget size should be `44px`
+
+  ---
+
+**Distribute Asset**
+  
+  ---
+  1. DATE ACKNOWLEDGE > DATE ACKNOWLEDGED
+  ---
+  2. Status icon size should be `16px;`
+  ---
+  3. table-striped: use the same as global theme
+  ---
+  4. Table heading > the sort icon is either going down or separated
+  ---
 
 
