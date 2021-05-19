@@ -96,21 +96,62 @@
       AFTER:
       
       <img width="393" alt="Screen Shot 2021-05-19 at 6 20 43 PM" src="https://user-images.githubusercontent.com/6618158/118797249-f8b02800-b8ce-11eb-806e-08a2aacbfd59.png">
-![Uploading Screen Shot 2021-05-19 at 6.20.30 PM.png…]()
 
 
   ---
 
-Dashboard
-Change icon for download
-Remove Capitalization: Employees, Contractors
-Table striped
-font styling on table body — remove bold, use #727272
-Progress bar-sizing
-Check-circle icon sizing on tables
-Asset section header is missing
+**Dashboard**
 
-Assets
+  1. Icon for download should be:
+
+     https://github.com/markbanaria/canopy-design/blob/master/assets/cloud-download.svg
+     
+  ---   
+  2. Remove Capitalization: Employees, Contractors -- DONE
+
+  ---   
+ 
+  3. Table should have table-striped -- DONE
+  ---
+  4. Font styling on table body should be — 
+  
+       For clickable: `bold, use #202020` 
+       
+       For non-clickable: `remove bold, use #727272`
+       
+       BEFORE:
+       
+       <img width="1413" alt="Screen Shot 2021-05-19 at 10 03 29 PM" src="https://user-images.githubusercontent.com/6618158/118826425-117c0600-b8ee-11eb-8763-a5fc43aba9b2.png">
+
+       
+       AFTER:
+       
+       <img width="604" alt="Screen Shot 2021-05-19 at 10 03 54 PM" src="https://user-images.githubusercontent.com/6618158/118826487-1e005e80-b8ee-11eb-8e28-c679a97d37f4.png">
+
+  ---     
+  5. Progress bar-sizing should be 
+
+     `height: 8px;`
+     
+  ---
+  6. Check-circle icon sizing on tables should be
+
+     `height: 16px;`
+     `width: 16px;`
+  ---
+  7. Asset section header is missing it should have a section header
+
+     BEFORE:
+     
+     <img width="1499" alt="Screen Shot 2021-05-19 at 10 06 05 PM" src="https://user-images.githubusercontent.com/6618158/118826862-6d468f00-b8ee-11eb-9654-92a684d1abad.png">
+
+     AFTER:
+     
+     <img width="1037" alt="Screen Shot 2021-05-19 at 10 06 36 PM" src="https://user-images.githubusercontent.com/6618158/118826934-7d5e6e80-b8ee-11eb-97f8-16ed708a8904.png">
+
+
+**Assets**
+
 Asset Card
 > padding
 > font sizing
